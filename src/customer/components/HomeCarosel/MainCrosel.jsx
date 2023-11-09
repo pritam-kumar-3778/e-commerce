@@ -10,6 +10,10 @@ const MainCrosel = () => {
   return (
     <AliceCarousel
         items={items}
+        disableDotsControls
+        autoPlay
+        autoPlayInterval={1500}
+        infinite
     />
   )
 }
