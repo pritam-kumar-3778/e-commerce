@@ -5,7 +5,7 @@ import { mens_kurta } from "../../../Data/mens_kurta";
 // import { Button } from "@mui/material";
 // import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 
-const HomeSectionCarosel = ({data}) => {
+const HomeSectionCarosel = ({data,sectionName}) => {
     // const [activeIndex,setActiveIndex]=useState(0);
   const responsive = {
     0: { items: 1 },
@@ -22,6 +22,9 @@ const HomeSectionCarosel = ({data}) => {
   const items = data.slice(0,20).map((item) => <HomeSectionCard product={item}/>);
   return (
     <div className="px-4 lg:px-8">
+        <h2 className="text-2xl font-bold text-gray-800 py-5">
+            {sectionName}
+        </h2>
       <div className="relative p-5">
         <AliceCarousel
           items={items}
