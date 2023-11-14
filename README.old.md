@@ -60,3 +60,5 @@ authenticate : Spring security and JWT token
 
 Task : Remove all default code in App.js file and run our code.If it's run perfectly. Proceed to next.....
 }
+
+Task : For location we have to first install react router. (npm i react-router-dom)
