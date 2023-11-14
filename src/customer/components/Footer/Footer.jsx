@@ -112,14 +112,14 @@ const Footer = () => {
           Made with love by Me.
         </Typography>
         <Typography variant="body2" component="p" align="center">
-          {/* Icons made by{' '}
-          <Link href="https://www.freepik.com" color="inherit" underline="always">
-            Freepik
+          Reach to me : {' '}
+          <Link href="https://www.linkedin.com/in/pritam-kumar-patel-16aa68248/" color="inherit" underline="always">
+            Linkdeen: Pritam Kumar Patel
           </Link>{' '}
-          from{' '}
-          <Link href="https://www.flaticon.com/" color="inherit" underline="always">
-            www.flaticon.com
-          </Link> */}
+          ||{' '}
+          <Link href="https://github.com/pritam-kumar-3778" color="inherit" underline="always">
+            Github: pritam-kumar-3778
+          </Link>
         </Typography>
       </Grid>  
       </Grid>
