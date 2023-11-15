@@ -13,12 +13,12 @@ const Cart = () => {
             </div>
             <div className='px-5 sticky top-0 h-[100vh] mt-5 lg:mt-0'>
             <div className='border '>
-                <p className='uppercase opacity-60 pb-4'>Price Details</p>
+                <p className='uppercase opacity-60 pb-4 font-semibold'>Price Details</p>
                 <Divider/>
                 <div className='space-y-3 font-semibold mb-2'>
                     <div className="flex justify-between pt-3 text-black">
                         <span>Price</span>
-                        <span>$2999</span>
+                        <span className='opacity-60'>$2999</span>
                     </div>
 
                     <div className="flex justify-between pt-3 text-black">
