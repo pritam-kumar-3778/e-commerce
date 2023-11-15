@@ -58,14 +58,12 @@ export default function Checkout() {
               >
                 Back
               </Button>
-              <Box sx={{ flex: "1 1 auto" }} />
+           
 
-              <Button onClick={handleNext}>
-                {activeStep === steps.length - 1 ? "Finish" : "Next"}
-              </Button>
+             
             </Box>
 
-            <div>{step == 2 ? <DeliveryAddressForm /> : <OrderSummary />}</div>
+            <div className="mt-10">{step == 2 ? <DeliveryAddressForm /> : <OrderSummary />}</div>
           </React.Fragment>
         )}
       </Box>
