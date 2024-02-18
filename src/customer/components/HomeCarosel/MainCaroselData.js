@@ -1,6 +1,6 @@
 export const mainCarouselData=[
     {
-        image:"https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/1/4/14_4.jpg",
+        image:"https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/1/7/17_-_copy-1.jpg",
         path:"/women/clothing/lengha_choli"
     },
     {
@@ -16,5 +16,6 @@ export const mainCarouselData=[
         path:"/women/clothing/women_saree"
     }
 
+    
 ]
 
